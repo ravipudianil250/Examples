@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/first_item"
+        android:title="Reset"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/second_item"
+        android:title="second item" />
+
+    <item
+        android:id="@+id/third_item"
+        android:title="third item" />
+    <group android:id="@+id/group_menu1">
+        <item
+            android:id="@+id/fourth_item"
+            android:title="fourth item" />
+
+        <item
+            android:id="@+id/fifth_item"
+            android:title="fifth item" />
+    </group>
+    <item
+        android:id="@+id/sub_menu1"
+        android:title="Sub Menu">
+        <menu xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools">
+
+            <item
+                android:id="@+id/sub_1"
+                android:title="Fourth" />
+
+            <item
+                android:id="@+id/sub_2"
+                android:title="Fifth" />
+        </menu>
+
+
+    </item>
+
+</menu>
